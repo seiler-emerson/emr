@@ -13,7 +13,7 @@ export class PatientService {
   patientList!: Array<any>;
   patient!: any;
 
-  apiUrl: string = 'https://entra21-project-emr.herokuapp.com/patient';
+  apiUrl: string = 'https://entra21emr.herokuapp.com/patient';
 
   constructor(
     private http: HttpClient

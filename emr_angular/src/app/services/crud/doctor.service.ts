@@ -12,7 +12,7 @@ export class DoctorService {
     doctorList!: Array<any>;
     doctor!: any;
   
-    apiUrl: string = 'https://entra21-project-emr.herokuapp.com/doctor';
+    apiUrl: string = 'https://entra21emr.herokuapp.com/doctor';
   
     constructor(
       private http: HttpClient
