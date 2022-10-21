@@ -161,7 +161,7 @@ export class NewAppointmentComponent implements OnInit {
       
       
     }
-    console.log(this.patientPrinter);
+    // console.log(this.patientPrinter);
     
   }
 

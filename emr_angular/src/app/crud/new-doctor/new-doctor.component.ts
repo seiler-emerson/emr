@@ -85,7 +85,7 @@ export class NewDoctorComponent implements OnInit {
         })
       )
       .subscribe((response: any) => {
-        console.log(response);
+        // console.log(response);
           this.doctorService.doctorList.push(response);
       });
       this.clearInputs()
