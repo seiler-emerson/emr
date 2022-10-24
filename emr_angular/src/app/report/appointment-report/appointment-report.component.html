@@ -11,9 +11,9 @@
             <tbody>
                 <tr class="text-center" *ngFor="let appointment of appointmentList; let index = index">
                     <td>{{ appointment.date }}</td>
-                    <td>{{ appointment.doctorName }}</td>
-                    <td>{{ appointment.patientName }}</td>
-                    <td>{{ appointment.patientCpf }}</td>
+                    <td>{{ appointment.doctor.name }}</td>
+                    <td>{{ appointment.patient.name }}</td>
+                    <td>{{ appointment.patient.cpf }}</td>
     
                 </tr>
             </tbody>

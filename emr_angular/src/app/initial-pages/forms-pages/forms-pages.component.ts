@@ -30,7 +30,7 @@ export class FormsPagesComponent implements OnInit {
     } else {
       this.isLogin = true
     }
-    console.log(this.isLogin);
+    // console.log(this.isLogin);
   }
 
 }
