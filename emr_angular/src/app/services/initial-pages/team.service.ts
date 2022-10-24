@@ -10,7 +10,7 @@ export class TeamService {
   teamList!: Array<any>;
   team!: any;
 
-  apiUrl: string = 'https://entra21emr.herokuapp.com/team';
+  apiUrl: string = 'https://emr-entra21.herokuapp.com/team';
 
   constructor(
     private http: HttpClient

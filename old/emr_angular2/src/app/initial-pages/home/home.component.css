@@ -1,0 +1,24 @@
+.initial-image {
+    background-image: url(../../../assets/images/background-initial.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+}
+
+.logo {
+    height: 100px;
+}
+
+.card-home {
+    min-height: 220px;
+
+}
+
+.logo-initial {
+    height: 40px;
+}
+
+.func-card {
+    min-height: 136px;
+}

@@ -1,0 +1,80 @@
+
+<div class="row margins">
+  <div class="col-md-3 col-sm-6 col-12">
+    <div class="info-box" >
+      <span class="info-box-icon bg-info"><i class="far fa-copy"></i></span>
+      <div class="info-box-content">
+        <span class="info-box-text">Appointments</span>
+        <span class="info-box-number">{{ appointmentsNumber }}</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+    <div class="info-box">
+      <span class="info-box-icon bg-success"><i class="fas fa-user"></i></span>
+      <div class="info-box-content">
+        <span class="info-box-text">Patients</span>
+        <span class="info-box-number">{{ patientsNumber }}</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+    <div class="info-box">
+      <span class="info-box-icon bg-warning"><i class="fas fa-user"></i></span>
+      <div class="info-box-content">
+        <span class="info-box-text">Doctors</span>
+        <span class="info-box-number">{{ doctorsNumber }}</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+    <div class="info-box">
+      <span class="info-box-icon bg-danger"><i class="fas fa-user-plus"></i></span>
+      <div class="info-box-content">
+        <span class="info-box-text">Users</span>
+        <span class="info-box-number">{{ usersNumber }}</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<div class="col-lg-12 col-xl-12 grid-margin stretch-card">
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-lg-10 col-xl-10 grid-margin stretch-card">
+          <h6 class="card-title">Appointments on the day</h6>
+        </div>
+      </div>
+      <apx-chart
+          [chart]="dataGraphicAppointments.chart"
+          [theme]="dataGraphicAppointments.theme"
+          [tooltip]="dataGraphicAppointments.tooltip"
+          [colors]="dataGraphicAppointments.collors"
+          [fill]="dataGraphicAppointments.fill"
+          [grid]="dataGraphicAppointments.grid"
+          [series]="dataGraphicAppointments.series"
+          [xaxis]="dataGraphicAppointments.xaxis"
+          [yaxis]="dataGraphicAppointments.yaxis"
+          [legend]="dataGraphicAppointments.legend"
+          [stroke]="dataGraphicAppointments.stroke"
+          [dataLabels]="dataGraphicAppointments.dataLabels"
+    ></apx-chart>
+  </div>
+  </div>
+</div>
+
+
+
+

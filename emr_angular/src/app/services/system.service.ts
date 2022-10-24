@@ -25,7 +25,7 @@ export class SystemService {
 
   listAllAppointment(): void {
     this.appointmentService
-      .getAllResume()
+      .getAll()
       .pipe(
         catchError((error) => {
           return of(error);

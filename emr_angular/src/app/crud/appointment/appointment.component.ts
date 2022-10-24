@@ -29,7 +29,7 @@ export class AppointmentComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.listAllAppointmentResume();
+      this.listAllAppointment();
     }, 1000);
     this.sendTitle();
     // this.listAppointmentTable()
