@@ -94,7 +94,7 @@ export class DashboardComponent implements OnInit {
   getAmountAppointmentDate() {
     for (let count = 0; count < this.appointmentService.appointmentList.length; count++) {
       for (let countDay = 0; countDay < this.lastSevenDays.length; countDay++) {
-        if (this.appointmentService.appointmentList[count].date.split(" ")[0].slice(0, 5) === this.lastSevenDays[countDay]) {
+        if (this.appointmentService.appointmentList[count].date_appointment.split(" ")[0].slice(0, 5) === this.lastSevenDays[countDay]) {
           this.totalAppointmentLastSevenDays[countDay] = this.totalAppointmentLastSevenDays[countDay] + 1
         }
       }
